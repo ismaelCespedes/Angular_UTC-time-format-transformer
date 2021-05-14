@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static('./dist/UTC-format-time-transformer-angular-client'));
 
 app.get('/*', (req, res) =>
-  res.sendFile('index.html', {root: 'dist/aUTC-format-time-transformer-angular-client/'}),
+  res.sendFile('index.html', {root: 'dist/UTC-format-time-transformer-angular-client/'}),
 );
 
 // Start the app by listening on the default Heroku port
