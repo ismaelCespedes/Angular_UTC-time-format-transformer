@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl:'https://translation.bellatela.bo/api/transform-time'
+  apiUrl:'https://spring-format-transformet-serv.herokuapp.com/api/transform-time'
 };
 
 /*
