@@ -1,27 +1,17 @@
 # UTCFormatTimeTransformerAngularClient
+Angular client that serves as an interface to a service that transforms a time to UTC format. It receives as parameters one hour and its time zone. The response from the service is a document in json format that contains the time transformed to UTC. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+# Used components:
+-node version 12.14.1 </br>
+-npm version 6.13.4 </br>
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Instructions for use:
+Once the project is deployed, a form will be shown where you must enter the time in format HH: mm: ss 
+<p>
+Example: <strong>15:40:12</strong> 
+</p>
+And you must enter the time zone that is composed of a sign (+ / -) and the displacement time of the time zone, the supported formats are (+/-) HH:mm or H:m or H</br>
+<p>
+Examples: <strong>-4 </strong>, <strong>-04:30 </strong>, <strong>-4:30 </strong> 
+<p/>  
+This service is published in the Url: https://utc-transformer.vercel.app/
